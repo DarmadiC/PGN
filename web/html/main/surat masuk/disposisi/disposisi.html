@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../images/favicon.ico">
+
+    <title>Disposisi</title>
+    
+	<!-- Vendors Style-->
+	<link rel="stylesheet" href="../../css/vendors_css.css">
+	  
+	<!-- Style-->  
+	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="../../css/skin_color.css">
+
+	<script src="/main/js/jquery-3.5.1.min.js"></script>
+	<script> 
+		$(function(){
+	      $("#bb").load("/main/header/header.html"); 
+	    });
+	</script>
+     
+  </head>
+
+<body class="hold-transition light-skin sidebar-mini theme-primary fixed">
+	
+<div class="wrapper">
+
+  <div id="bb"></div>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper bg-light">
+	  <div class="container-full">
+		<!-- Main content -->
+		<section class="content">
+				<div class="col-12">
+					<div class="box">
+						<div class="box-header with-border">
+						  <h4 class="box-title">Disposisi</h4>
+						</div>
+						<form class="disposisi">
+							<div class="box-body">
+								<div class="form-group row">
+									<label for="example-text-input" class="col-sm-2 col-form-label">Jabatan</label>
+									<div class="col-sm-7">
+										<h6>Sekretariat Area Bogor SBU I</h6>
+							  		</div>
+								</div>
+								<div class="form-group row">
+									<label for="example-text-input" class="col-sm-2 col-form-label">Divisi / Satuan</label>
+									<div class="col-sm-7">
+										<h6>Divisi Latihan 1</h6>
+							  		</div>
+								</div>
+								<div class="form-group row">
+								  	<label for="example-text-input" class="col-sm-2 col-form-label">No Surat</label>
+								  	<div class="col-sm-7">
+										<h6>01020304</h6>
+							  		</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-sm-2 col-form-label">Perihal</label>
+									<div class="col-sm-7">
+										<h6>Pengadaan</h6>
+							  		</div>
+								</div>
+								<div class="form-group row">
+								  <label for="example-text-input" class="col-sm-2 col-form-label">Sifat</label>
+								  <div class="col-sm-7">
+										<h6>Biasa</h6>
+							  		</div>
+								</div>
+								<div class="form-group row">
+								  <label for="example-text-input" class="col-sm-2 col-form-label">Keamanan</label>
+								  <div class="col-sm-7">
+										<h6>Terbatas</h6>
+							  		</div>
+								</div>
+								<div class="form-group row">
+								 	<label for="example-text-input" class="col-sm-2 col-form-label">Dari</label>
+								 	<div class="col-sm-7">
+										<h6>ELO Indonesia</h6>
+							  		</div>
+								</div>
+								<div class="form-group row">
+								  	<label for="example-date-input" class="col-sm-2 col-form-label">Tanggal Surat</label>
+								  	<div class="col-sm-7">
+										<h6>10 Juli 2019</h6>
+							  		</div>
+								</div>
+								<div class="form-group row">
+								  	<label for="example-date-input" class="col-sm-2 col-form-label">Tanggal Surat Masuk</label>
+								  	<div class="col-sm-7">
+										<h6>11 Juli 2019</h6>
+							  		</div>
+								</div>
+								<div class="form-group row">
+								  <label for="example-text-input" class="col-sm-2 col-form-label">Klasifikasi</label>
+								  <div class="col-sm-7">
+										<h6>MODUL MATERI</h6>
+							  		</div>
+								</div>
+								<div class="form-group row">
+								  <label for="example-text-input" class="col-sm-2 col-form-label">Indexset</label>
+								  <div class="col-sm-7">
+										<h6>Pengadaan HardDisk</h6>
+							  		</div>
+								</div>
+					            <div class="form-group row">
+										<label class="col-sm-2 col-form-label">Ringkasan Isi surat</label>
+										<textarea rows="3" cols="4" class="col-sm-7 form-control" placeholder=""></textarea>
+								</div>
+								<div class="form-group row">
+									<label for="example-text-input" class="col-sm-2 col-form-label">Lampiran</label>
+									<table class="table b-1 border-dark">
+										<thead class="bg-dark">
+											<tr>
+												<th>Nama File</th>
+												<th>Aksi</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>test.pdf</td>
+												<td><a href="#"><i class="fa fa-file-text-o" aria-hidden="true">Buka</i></a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							</div>
+							<div class="box">
+								<div class="box-body">
+									<div class="c-inputs-stacked">
+										<input type="checkbox" id="checkbox_1">
+										<label for="checkbox_1" class="block">Disposisi Kesemua</label>
+									</div>
+									<div class="c-inputs-stacked">
+										<input type="checkbox" id="checkbox_2">
+										<label for="checkbox_2" class="block">Kepala Dinas Latihan</label>
+									</div>
+									<table
+						              style="overflow: auto;"
+						              class="table table-responsive-sm text-center hover cell-border b-1 border-dark"
+						              id="myTable"
+						            >
+						              <thead class="bg-dark">
+						                <tr>
+						                  <th>No</th>
+						                  <th>Nama File</th>
+						                  <th>Aksi</th>
+						                </tr>
+						              </thead>
+						              <tbody></tbody>
+						            </table>
+						            <div class="text-center">
+						               <button class="mr-3 btn btn-light btn-outline-primary" type="submit">Tambah Disposisi</button>
+						            </div>
+								</div>
+							</div>
+							<div class="box">
+								<div class="box-header">
+									<h4 class="box-title">Komentar</h4>
+								</div>
+								<div class="box-header">
+									 <textarea name="content" data-provide="markdown" data-iconlibrary="fa" rows="11"></textarea>
+								</div>
+							</div>
+							<div class="box">
+								<div class="box-header">
+									<h4 class="box-title">Feedback</h4>
+								</div>
+								<div class="box-header">
+									 <textarea name="content" data-provide="markdown" data-iconlibrary="fa" rows="11"></textarea>
+								</div>
+							</div>
+							<div class="box">
+								<div class="box-body">
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Lampiran Laporan</label>
+										<div class="col-lg-7">
+											<input type="file" class="form-control" accept=".png,.pdf,.gif,.jpg,.jpeg"/>
+										</div>
+												<!-- <button type="submit" class="btn btn-outline-info btn-light pull-right">Unggah</button> -->
+												<table
+									              style="overflow: auto;"
+									              class="table table-responsive-sm text-center hover cell-border b-1 border-dark"
+									              id="myTable"
+									            >
+									              <thead class="bg-dark">
+									                <tr>
+									                  <th>Aksi</th>
+									                  <th>Nama File</th>
+									                  <th>Aksi</th>
+									                </tr>
+									              </thead>
+									              <tbody></tbody>
+									            </table>
+										</div>
+									</div>
+								</div> 
+							<div class="box">
+								<div class="box-body">
+									<div class="checkbox">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <input type="checkbox" id="checkbox_3">
+                        <label for="checkbox_3"><h5>Setuju</h5></label>
+                      </div>
+                      <div class="col-sm">
+                        <input type="checkbox" id="checkbox_4">
+                        <label for="checkbox_4"><h5>Siapkan Jawaban</h5></label>
+                      </div>
+                      <div class="col-sm">
+                        <input type="checkbox" id="checkbox_5">
+                        <label for="checkbox_5"><h5>Supaya Menghadap</h5></label>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_6">
+                          <label for="checkbox_6"><h5>Untuk Diketahui</h5></label>
+                        </div>
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_7">
+                          <label for="checkbox_7"><h5>Buatkan Resume</h5></label>
+                        </div>
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_8">
+                          <label for="checkbox_8"><h5>Sesuai Permintaan</h5></label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_9">
+                          <label for="checkbox_9"><h5>Diselesaikan/Ditindak lanjuti</h5></label>
+                        </div>
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_10">
+                          <label for="checkbox_10"><h5>Sesuai Pembicaraan</h5></label>
+                        </div>
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_11">
+                          <label for="checkbox_11"><h5>File</h5></label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_12">
+                          <label for="checkbox_12"><h5>Dipelajari/Minta Pendapat</h5></label>
+                        </div>
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_13">
+                          <label for="checkbox_13"><h5>Harap Dikembalikan</h5></label>
+                        </div>
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_14">
+                          <label for="checkbox_14"><h5>Copy</h5></label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_15">
+                          <label for="checkbox_15"><h5>Dijadwalkan</h5></label>
+                        </div>
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_16">
+                          <label for="checkbox_16"><h5>Diedarkan</h5></label>
+                        </div>
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_17">
+                          <label for="checkbox_17"><h5>Lain-Lain</h5></label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm">
+                          <input type="checkbox" id="checkbox_18">
+                          <label for="checkbox_18"><h5>Minta Dibahas</h5></label>
+                        </div>
+                      </div>
+                  </div>
+                <ul class="row justify-content-end" style="list-style-type: none;  padding-right: 20px; padding-top: 20px; margin-bottom: 0;">
+                    <li><button class="mr-3 btn btn-light btn-outline-primary" type="submit">Disposisi</button></li>
+                    <li><button class="btn btn-light btn-outline-danger" type="">Tutup</button></li>
+                </ul>
+            </div>
+								</div>
+							</div>
+						</form>
+										
+				  	
+				</div>
+				  
+				</div>
+			</div>
+		</section>
+		<!-- /.content -->
+	  </div>
+  </div>
+  <!-- /.content-wrapper -->
+  <!-- <footer class="main-footer">
+    <div class="pull-right d-none d-sm-inline-block">
+        <ul class="nav nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
+		  <li class="nav-item">
+			<a class="nav-link" href="javascript:void(0)">FAQ</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Purchase Now</a>
+		  </li>
+		</ul>
+    </div>
+	  &copy; 2020 <a href="https://www.multipurposethemes.com/">Multipurpose Themes</a>. All Rights Reserved.
+  </footer> -->
+
+  <!-- Control Sidebar -->
+  <!-- <aside class="control-sidebar">
+	  
+	<div class="rpanel-title"><span class="pull-right btn btn-circle btn-danger"><i class="ion ion-close text-white" data-toggle="control-sidebar"></i></span> </div>  <!-- Create the tabs -->
+   
+	
+	<!-- Vendor JS -->
+	<script src="../../js/vendors.min.js"></script>
+    <script src="../../css/icons/feather-icons/feather.min.js"></script>	
+    
+	<script src="../../../assets/vendor_components/apexcharts-bundle/irregular-data-series.js"></script>
+	<script src="../../../assets/vendor_components/apexcharts-bundle/dist/apexcharts.js"></script>	
+    <script src="../../../assets/vendor_components/datatable/datatables.min.js"></script>
+	<script src="../../../assets/vendor_components/jquery.peity/jquery.peity.js"></script>
+	<script src="../../../assets/vendor_components/bootstrap-markdown-master/js/bootstrap-markdown.js"></script>
+	<script src="../../../assets/vendor_components/marked/marked.js"></script>
+	<script src="../../../assets/vendor_components/to-markdown/to-markdown.js"></script>
+	
+	<!-- Venusx Admin App -->
+	<script src="../../js/template.js"></script>
+	<script src="../../js/pages/dashboard.js"></script>
+	<script src="../../js/demo.js"></script>
+	<script src="../../js/pages/data-table.js"></script>
+	<script>
+		$(document).ready(function() {
+        $("#myTable").DataTable({
+          order: [],
+          lengthChange: false,
+          bFilter: false,
+          paging: false,
+          bInfo: false
+        });
+      });
+	</script>
+	
+	
+</body>
+</html>
